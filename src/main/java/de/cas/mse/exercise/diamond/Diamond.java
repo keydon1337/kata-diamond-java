@@ -8,6 +8,7 @@ public class Diamond {
 		if (n <= 0 || n % 2 == 0) {
 			return null;
 		}
+		blubl
 		StringBuilder builder = new StringBuilder(new String(make(n, n)));
 		for (int i = n - 2; i > 0; i -= 2) {
 			char[] chars = make(n, i);
